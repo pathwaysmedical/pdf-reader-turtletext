@@ -26,7 +26,7 @@ Jeweler::Tasks.new do |gem|
   gem.summary = %Q{PDF structured text reader}
   gem.description = %Q{a library that can read structured and positional text from PDFs. Ideal for asembling structured data from invoices and the like.}
   gem.email = "gallagher.paul@gmail.com"
-  gem.authors = ["Paul Gallagher"]
+  gem.authors = ["Paul Gallagher", "Daniel Musekamp"]
   gem.files.exclude 'pkg/*'
   # dependencies defined in Gemfile
 end
@@ -54,4 +54,3 @@ task :make_pdf_samples do |t|
   include PdfSamplesHelper
   make_pdf_samples
 end
-

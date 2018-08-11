@@ -1,3 +1,7 @@
+Version 0.2.3                Release: 11th Aug 2018
+==================================================
+* bump dependencies for compatibility with Ruby >= 2.4
+
 Version 0.2.2                Release: 1st Aug 2012
 ==================================================
 * provide better control of inclusive/exclusive behaviour
